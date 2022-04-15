@@ -13,6 +13,7 @@ my_dict = {
         'f': {'Lol': ['L', 'o', 'l']}
     },
 }
+
 print(my_dict['bar']['d'])
 my_dict['moo']['f']['Lol'].pop(1)
 my_dict['moo']['f']['K'] = ['K', 'e', 'k']
