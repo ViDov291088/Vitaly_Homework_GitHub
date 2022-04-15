@@ -13,7 +13,10 @@ my_dict = {
         'f': {'Lol': ['L', 'o', 'l']}
     },
 }
-print(my_dict['foo']['b'])
+
 print(my_dict['bar']['d'])
-my_dict['bar']['d'].add(9)
-print(my_dict)
+my_dict['moo']['f']['Lol'].pop(1)
+my_dict['moo']['f']['K'] = ['K', 'e', 'k']
+# print(my_dict)
+my_dict.clear()
+# print(my_dict)
